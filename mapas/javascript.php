@@ -58,5 +58,5 @@
 </script>
 </body>
 </html>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLiSOXuYyk4lfhaZQqQ6t87BIal_aTQXg&callback=iniciarMap"
+<script src="https://maps.googleapis.com/maps/api/js?key=&callback=iniciarMap"
 defer></script>
