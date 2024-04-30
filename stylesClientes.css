@@ -1,0 +1,342 @@
+.clientes {
+    background: #00a393;
+}
+
+.container {
+    width: 1200px;
+    height: 750px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: -1000;
+}
+
+.tarjeta {
+    height: 330px;
+    width: 220px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #555;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.tarjetaa {
+    height: 220px;
+    width: 220px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #555;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: -100px;
+}
+
+.form-group input {
+    height: 40px;
+    width: 200px;
+    padding-left: 10px;
+    color: #000;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.boton-submit-cliente {
+    height: 30px;
+    width: 160px;
+    margin-left: 20px;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    background: rgb(1, 149, 1);
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.boton-submit-historico {
+    height: 30px;
+    width: 140px;
+    margin-left: 30px;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+    font-size: 16px;
+    background: rgb(142, 149, 1);
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.selectRepartoDe {
+    height: 30px;
+    width: 90px;
+    margin-left: 7px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.selectRepartoDe option {
+    color: #000;
+}
+
+.selectDiaReparto {
+    height: 30px;
+    width: 180px;
+    color: #000;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.selectDiaReparto option {
+    color: #000;
+}
+
+.clienteGuardadoCorrectamente {
+    height: 50px;
+    width: 30px;
+    background: greenyellow;
+    color: green;
+}
+
+.columna8  {
+    border-top: 1px solid #aaa;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.columna8 table th {
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #fff;
+    border-right: 1px solid #aaa;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.row {
+    display: flex;
+}
+
+tbody tr td{
+    color: #000;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 100;
+    border-right: 1px solid #aaa;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid #aaa;
+    background: #fff;
+}
+.codigoClienteTabla {
+    border-left: 1px solid #aaa;
+}
+
+.codigoClienteTablaHead {
+    border-left: 1px solid #aaa;
+}
+
+table thead tr th {
+    border-bottom: 1px solid #aaa;
+    background: #0A97B9;
+}
+
+.botonEliminar {
+    color: rgb(183, 17, 17);
+    text-decoration: none;
+}
+
+.botonVer {
+    color: rgb(141, 118, 14);
+    text-decoration: none;
+}
+
+.botonVer i {
+    color: rgb(141, 118, 14);
+}
+
+.botonPrint {
+    background: rgb(57, 112, 101);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 900;
+    font-size: 20px;
+    margin-left: 17px;
+}
+
+.botonPrint i {
+    color: #fff;
+}
+
+
+.botonEliminar i {
+    color: rgb(183, 17, 17);
+    cursor: pointer;
+}
+
+.EditarClientesTitulo {
+    height: 50px;
+    width: 400px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #555;
+    display: inline;
+    font-family: 'Gotham Book';
+}
+
+.EditarClientesTitulo i {
+    color: rgb(64, 97, 105);
+}
+
+.paginador ul {
+    padding: 15px;
+    list-style: none;
+    background: #fff;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.paginador a, .pageSelected {
+    color: #000;
+    border: 1px solid #ddd;
+    padding: 5px;
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    width: 35px;
+    text-decoration: none;
+}
+
+.paginador a:hover {
+    background: #ddd;
+}
+
+.pageSelected {
+    color: #fff;
+    background-color: #0A97B9;
+    border: 1px solid #428bca;
+}
+
+table {
+    margin-top: 10px;
+}
+
+/*=====================BUSCADOR================*/
+.formSearch {
+    height: 30px;
+    display: flex;
+    float: right;
+    background: initial;
+}
+
+.formSearch .btnSearch {
+    background: #1faac8;
+    color: #fff;
+    padding: 0 20px;
+    border: 0;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 2px;
+}
+
+.formSearch input {
+    padding: 10px;
+    color: #000;
+}
+
+
+.expandirOpcionesrevendedoresOculto {
+    display: none;
+}
+
+.expandirOpcionesrevendedores {
+    position: absolute;
+    width: 138px;
+    display: flex;
+    flex-direction: column;
+    background: #009586;
+    margin-top: 17px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+.ocultarElemento {
+    display: none;
+}
+
+.expandirOpcionesrevendedores a {
+    display: block;
+    text-decoration: none;
+    margin-top: -15px;
+    font-weight: 900;
+}
+
+.expandirOpcionesrevendedores a:hover {
+    background: #00a393;
+    color: #fff;
+}
+
+.prueba {
+    background: #fff;
+    width: 200px;
+    height: 200px;
+    color: #000;
+}
+
+#pruebaa li {
+    color: #000;
+}
+
+@media only screen and (max-width: 1366px) { 
+    .row {
+        margin: auto;
+        justify-content: center;
+    }
+    .container {
+        height: 85%;
+        margin-top: 100px;
+    }
+    .EditarClientesTitulo {
+        margin-left: 250px;
+    }
+    .columna8 tr th {
+        font-size: 13px;
+    }
+    .tarjetaa {
+        margin-left: 0;
+    }
+
+}
+@media only screen and (max-width: 420px) {
+
+    .EditarClientesTitulo {
+        margin-left: 40px;
+    }
+    .row {
+        margin-left: -20px;
+        justify-content: left;
+    }
+    .container {
+        height: 100%;
+        width: 100%;
+    }
+    .formSearch {
+        display: flex;
+    }
+}

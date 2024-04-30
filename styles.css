@@ -1,0 +1,361 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #c1ebf7;
+}
+
+.contenedorPrincipal {
+    height: 100%;
+    width: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: #d4f1f9;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    z-index: -1000;
+}
+
+.contenedorPrincipal h1 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: -30px;
+    font-weight: 500;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.contenedorPrincipal img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px;
+    background: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.empleado {
+    position: absolute;
+    top: 150px;
+}
+
+.registerEmpleado {
+    height: 200px;
+    width: 500px;
+    background: rgb(244, 251, 255);
+    border-radius: 10px;
+    position: absolute;
+    justify-content: center;
+    top: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.registerEmpleado h2 {
+    margin: 0;
+    text-align: center;
+    margin-top: 0px;
+    font-weight: 200;
+}
+
+.registerEmpleado input {
+    margin-left: 120px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.registerEmpleado button {
+    justify-content: center;
+    margin-top: -5px;
+    border: 1px solid #000;
+}
+
+.registrarseBotton {
+    height: 26px;
+    width: 150px;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin: auto;
+    margin-top: -20px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.LoginBotton {
+    font-size: 15px;
+    display: flex;
+    height: 26px;
+    width: 150px;
+    text-align: center;
+    border: 2px solid #000;
+    margin-bottom: 0px;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: #fff;
+}
+
+
+.dueño {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 300px;
+    z-index: 200;
+}
+
+.registerDueño {
+    height: 200px;
+    width: 500px;
+    background: rgb(244, 251, 255);
+    border-radius: 10px;
+    position: absolute;
+    bottom: 280px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    z-index: 500;
+}
+
+.registerDueño h2 {
+    margin: 0;
+    text-align: center;
+    margin-top: 0px;
+    font-weight: 200;
+}
+
+.registerDueño input {
+    margin-left: 120px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.LoginBottonD {
+    text-align: center;
+    height: 26px;
+    width: 150px;
+    background: #fff;
+    border: 2px solid #000;
+    margin: 20px auto auto auto;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.registerEmpleadoHide {
+    display: none;
+}
+
+.registerDueñoHide {
+    display: none;
+}
+
+.LoginBotton:hover {
+    color: #fff;
+    background: #000;
+    cursor: pointer;
+}
+
+
+.LoginBottonD:hover {
+    color: #fff;
+    background: #000;
+    cursor: pointer;
+    transition: .3s;
+}
+
+
+.registrarseEmpleado{
+    height: 200px;
+    width: 500px;
+    background: rgb(244, 251, 255);
+    border-radius: 10px;
+    position: absolute;
+    justify-content: center;
+    top: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.registrarseEmpleado input {
+    margin-left: 120px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.registrarseEmpleadoBoton {
+    height: 26px;
+    width: 150px;
+    text-align: center;
+    margin: 10px 175px auto;
+    cursor: pointer;
+    text-decoration: underline;
+    border:none;
+    background: none;
+}
+
+.registrarseDueño{
+    height: 200px;
+    width: 500px;
+    background: rgb(244, 251, 255);
+    border-radius: 10px;
+    position: absolute;
+    justify-content: center;
+    top: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.registrarseDueño input {
+    margin-left: 120px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.opcionRegistrarseEmpleadoOculto {
+    display: none;
+}
+
+.loginContrasenaEmp {
+    margin-bottom: 25px;
+}
+
+.LoginBottonDueño {
+    font-size: 15px;
+    height: 26px;
+    width: 150px;
+    text-align: center;
+    border: 2px solid #000;
+    margin-top: 25px;
+    margin-left: 175px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: #fff;
+}
+
+.LoginBottonDueño:hover {
+    color: #fff;
+    background: #000;
+    cursor: pointer;
+    transition: .3s;
+}
+
+
+.expandirOpcionesrevendedoresOculto {
+    display: none;
+}
+
+.expandirOpcionesrevendedores {
+    position: absolute;
+    width: 138px;
+    display: flex;
+    flex-direction: column;
+    background: #009586;
+    margin-top: 17px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+.expandirOpcionesrevendedores a {
+    display: block;
+    text-decoration: none;
+    margin-top: -15px;
+    font-weight: 900;
+}
+
+.expandirOpcionesrevendedores a:hover {
+    background: #00a393;
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 1366px) {
+    .contenedorPrincipal {
+        width: 400px;
+    }
+    .empleado img {
+        margin-left: 90px;
+        height: 200px;
+        width: 200px;
+        margin-bottom: 0px;
+        margin-top: -10px;
+    }
+    .dueño img {
+        margin-top: -60px;
+    }
+    .contenedorPrincipal h1 {
+        margin-top: 50px;
+    }
+    .registerDueño {
+        width: 400px;
+        bottom: 400px;
+        height: 160px;
+    }
+    .registerEmpleado {
+        width: 400px;
+        height: 160px;
+        top: 0;
+    }
+    .registerDueño input {
+        margin-left: 110px;
+    }
+    .registerEmpleado input {
+        margin-left: 110px;
+    }
+    .LoginBottonDueño {
+        margin-left: 125px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .contenedorPrincipal {
+        width: 100%;
+    }
+    .contenedorPrincipal h1 {
+        margin-top:20px;
+    }
+    .empleado img {
+        height: 250px;
+        width: 250px;
+        margin-bottom: 0px;
+        margin-top: -50px;
+    }
+    .dueño img {
+        margin-top: -50px;
+    }
+    .empleado {
+        height: 0;
+        width: 0;
+    }
+    .dueño {
+        height: 0;
+        width: 0;
+    }
+    .registerDueño {
+        bottom: -150px;
+    }
+    .contenedorPrincipal img {
+        margin-left: 70px;
+    }
+    .registerDueño input {
+        margin-left: 70px;
+    }
+    .LoginBottonDueño {
+        margin-left: 130px;
+    }
+    .registerEmpleado input {
+        margin-left: 70px;
+    }
+    .LoginBotton {
+        margin-left: 130px;
+    }
+}

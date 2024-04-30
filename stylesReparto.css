@@ -1,0 +1,439 @@
+.reparto {
+    background: #00a393;
+}
+
+.container {
+    width: 1200px;
+    height: 750px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: -1000;
+}
+
+.tarjeta {
+    height: 290px;
+    width: 220px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #555;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.Invisible {
+    display: none;
+}
+
+.form-group input {
+    height: 40px;
+    width: 200px;
+    padding-left: 10px;
+    color: #000;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.boton-submit-cliente {
+    height: 30px;
+    width: 160px;
+    margin-left: 20px;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    background: rgb(1, 149, 1);
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.selectRepartoDe {
+    height: 30px;
+    width: 90px;
+    margin-left: 7px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.selectRepartoDe option {
+    color: #000;
+}
+
+.selectDiaReparto {
+    height: 30px;
+    width: 90px;
+    color: #000;
+}
+
+.selectDiaReparto option {
+    color: #000;
+}
+
+.clienteGuardadoCorrectamente {
+    height: 50px;
+    width: 30px;
+    background: greenyellow;
+    color: green;
+}
+
+.columna8  {
+    border-top: 1px solid #aaa;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.columna8 table th {
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #fff;
+    border-right: 1px solid #aaa;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.row {
+    display: flex;
+}
+
+tbody tr td{
+    color: #000;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 200;
+    border-right: 1px solid #aaa;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid #aaa;
+    background: #fff;
+}
+.codigoClienteTabla {
+    border-left: 1px solid #aaa;
+}
+
+.codigoClienteTablaHead {
+    border-left: 1px solid #aaa;
+}
+
+table thead tr th {
+    border-bottom: 1px solid #aaa;
+    background: #a40ab9;
+}
+
+.botonEliminar {
+    color: #fff;
+    padding: 3px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.EditarClientesTitulo {
+    height: 50px;
+    width: 400px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #555;
+    display: inline;
+    font-family: 'Gotham Book';
+}
+
+.EditarClientesTitulo i {
+    color: rgb(64, 97, 105);
+}
+
+.paginador ul {
+    padding: 15px;
+    list-style: none;
+    background: #fff;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.paginador a, .pageSelected {
+    color: #000;
+    border: 1px solid #ddd;
+    padding: 5px;
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    width: 35px;
+    text-decoration: none;
+}
+
+.paginador a:hover {
+    background: #ddd;
+}
+
+.pageSelected {
+    color: #fff;
+    background-color: #a40ab9;
+    border: 1px solid #89099a;
+}
+
+table {
+    margin-top: 10px;
+}
+
+/*=====================BUSCADOR================*/
+.formSearch {
+    height: 30px;
+    display: flex;
+    float: right;
+    background: initial;
+}
+
+.formSearch .btnSearch {
+    background: #1faac8;
+    color: #fff;
+    padding: 0 20px;
+    border: 0;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 2px;
+}
+
+.formSearch input {
+    padding: 10px;
+    color: #000;
+}
+
+.expandirOpcionesRepartoAgustin {
+    position: absolute;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    background: #009586;
+    margin-top: 107px;
+    margin-left: 136px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+.expandirOpcionesRepartoJavier {
+    position: absolute;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    background: #009586;
+    margin-top: 180px;
+    margin-left: 136px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+.expandirOpcionesRepartoAle {
+    position: absolute;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    background: #009586;
+    margin-top: 250px;
+    margin-left: 136px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+.expandirOpcionesRepartoAgustinOculto {
+    display: none;
+}
+
+.expandirOpcionesRepartoJavierOculto {
+    display: none;
+}
+
+.expandirOpcionesRepartoAleOculto {
+    display: none;
+}
+
+
+.expandirOpcionesrevendedoresOculto {
+    display: none;
+}
+
+.expandirOpcionesrevendedores {
+    position: absolute;
+    width: 138px;
+    display: flex;
+    flex-direction: column;
+    background: #009586;
+    margin-top: 17px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+.expandirOpcionesrevendedores a {
+    display: block;
+    text-decoration: none;
+    margin-top: -15px;
+    font-weight: 900;
+}
+
+.expandirOpcionesrevendedores a:hover {
+    background: #00a393;
+    color: #fff;
+}
+
+.clienteDeAyer td {
+    background: rgb(201, 244, 255);
+}
+
+.tarjetaDeshacer {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    background: rgb(255, 251, 20);
+    border: 1px solid #555;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.tarjetaDeshacer2 {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    background: rgb(255, 251, 20);
+    border: 1px solid #555;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: none;
+}
+
+.deshacer {
+    color: #000;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.deshacer i {
+    font-size: 40px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: -10px;
+}
+
+.opcionesVerReparto {
+    margin-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100px;
+    background: #eee;
+    color: #000;
+}
+.opcionesVerReparto option {
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    color: #000;
+}
+
+.BotonCambiar {
+    background:#1faac8;
+    padding: 2px 4px;
+    display: flex;
+    border: 1px solid #aaa;
+}
+
+@media only screen and (max-width: 1366px) { 
+    .row {
+        margin: auto;
+        justify-content: center;
+    }
+    .container {
+        margin-top: 100px;
+    }
+    .EditarClientesTitulo {
+        margin-left: 250px;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+
+    .OcultarTelefonoCambiarOrden {
+        display: none;
+    }
+    .EditarClientesTitulo {
+        margin-left: 40px;
+    }
+    .row {
+        margin: 0;
+        margin-left: -50px;
+        justify-content: left;
+    }
+    .container {
+        height: 100%;
+        width: 100%;
+    }
+    .formSearch {
+      display: flex;
+	  width:70px;
+      margin-top: 50px;
+	  margin-left: -200px;
+	  margin-right: 160px;
+    }
+    .opcionesVerReparto {
+        margin-top: 20px;
+        margin-left: 70px;
+    }
+    #busqueda {
+        width: 130px;
+    	  margin-left: -10px;
+    }
+    .EditarClientesTitulo {
+        margin: 10px;
+        font-size: 25px;
+    }
+    .tarjetaDeshacer {
+        display: none;
+    }
+    .tarjetaDeshacer2 {
+        height: 50px;
+        width: 75px;
+        padding: 10px;
+        background: rgb(255, 251, 20);
+        border: 1px solid #555;
+        border-radius: 5px;
+        margin-left: 30px;
+        display: flex;
+    }
+    .tarjetaDeshacer2 a{
+        font-size: 12px;
+    }
+    .tarjetaDeshacer2 i {
+        font-size: 20px;
+        margin-top: -5px;
+        display: inline;
+    }
+    .columna8 table th {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 12px;
+    }
+    .columna8 table td {
+        padding-left: 3px;
+        padding-right: 3px;
+        font-size: 13px;
+    }
+    .botonEliminar {
+        height: 10px;
+        width: 10px;
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,14 @@
+#map {
+    height: 500px;
+    width: 90%;
+    margin: 30px auto;
+}
+#bodyContent {
+    text-align: center;
+}
+#firstHeading {
+    text-align: center;
+}
+.labels{
+    color: red;
+}

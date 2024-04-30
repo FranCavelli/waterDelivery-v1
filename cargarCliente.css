@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: #ddd;
+}
+
+nav {
+    height: 100px;
+    width: 100%;
+    background: rgb(0, 84, 153);
+    position: absolute;
+}
+
+nav h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.pantalla {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.600);
+    z-index: 1500;
+}
+
+.containercliente {
+    height: 600px;
+    width: 1000px;
+    background: #ddd;
+    position: absolute;
+    z-index: 2000;
+    margin-top: 180px;
+    margin-left: 400px;
+    border: 3px solid rgb(0, 134, 201);
+    box-shadow: 0 0 20px 0 #000;
+}
+
+.containercliente__titulo {
+    height: 50px;
+    width: 100.1%;
+    background: rgb(0, 134, 201);
+}
+
+.containercliente__titulo h1 {
+    text-align: center;
+    padding: 5px;
+    color: #ddf;
+}
+
+.containercliente__titulo h1 span {
+    color: #fff;
+}
+
+.containercliente__datos {
+    height: 100px;
+    width: 100.1%;
+    background: rgb(0, 93, 139);
+}
+
+.containercliente__datos p {
+    font-size: 22px;    
+}
+
+.direccionCliente{
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+.saldoCliente {
+    color: rgb(9, 255, 0);
+    font-weight: 600;
+    text-align: center;
+}
+.nombreCliente {
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+.numeroCliente {
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+}
+
+.containerCliente__cargar{
+    width: 100.1%;
+    height: 351px;
+    background: #ddd;
+}
+
+form div {
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+}
+
+form div input {
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+form div p {
+    padding: 10px 5px;
+    background: lightskyblue;
+}
+
+.montoPagado {
+    padding: 10px 10px;
+    background: lime;
+}
+
+.montoPagadoDiv {
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.submitBoton {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.boton-submit-reparto {
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid lightskyblue;
+    background: #33a;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.paraManana {
+    justify-content: center;
+}
+
+.paraManana p {
+    background: #ffff55;
+}
+
+.valoresOcultos {
+    display: none;
+}
+
+@media only screen and (max-width: 1366px) {
+    .containercliente {
+        width: 80%;
+        height: 90%;
+        margin: 50px 140px;
+    }
+}
+@media only screen and (max-width: 1280px) {
+    .containercliente {
+        width: 80%;
+        height: 75%;
+        margin: 0;
+        margin-left: 140px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .containercliente {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+    .containerCliente__cargar {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    form div p {
+        font-size: 15px;
+    }
+    form div {
+        display: block;
+        text-align: center;
+        padding: 5px;
+    }
+    .montoPagadoDiv {
+        margin-top: 10px;
+    }
+    form div input {
+        padding: 5px;
+    }
+    .containercliente__datos {
+        height: 80px;
+    }
+    .containercliente__datos p {
+        font-size: 18px;
+    }
+    .containercliente__titulo {
+        height: 40px;
+    }
+    .containercliente__titulo h1 {
+        font-size: 25px;
+    }
+    .ocultarRespSaldo {
+        display: none;
+    }
+}
