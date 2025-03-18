@@ -1,23 +1,34 @@
-name: Deploy PHP to Server
+name: Build and Deploy PHP Static Site
 
 on:
   push:
     branches:
-      - main  # O la rama que uses para producción
+      - main
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Deploy via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
         with:
-          server: ${{ secrets.FTP_HOST }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./
-          server-dir: /public_html/  # Ajusta la ruta según tu servidor
+          php-version: '8.2'
+
+      - name: Install dependencies
+        run: composer install --no-dev --prefer-dist
+
+      - name: Generate static site
+        run: |
+          mkdir output
+          cp -r * output/
+          find output -name "*.php" -exec sh -c 'php "{}" > "{}.html"' \; -exec rm "{}" \;
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: output
